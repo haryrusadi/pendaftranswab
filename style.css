@@ -1,0 +1,25 @@
+.kolom{
+    	/*jumlah column*/
+	-webkit-column-count: 4; /* support Chrome, Safari, Opera */
+	-moz-column-count: 4; /* support Firefox */
+	column-count : 4;
+ 
+	/*lebar column*/
+	/* -webkit-column-width: 50px; support Chrome, Safari, Opera */
+	/* -moz-column-width: 50px; support Firefox */
+	/* column-width :50px; */
+ 
+	/*jarak column dengan column yang lain*/
+	/* -webkit-column-gap : 50px; */
+	/* -moz-column-gap : 50px; */
+	/* column-gap : 50px; */
+}
+.kotak{
+    width: 800px;
+	height: auto;
+	margin: 10px auto;
+}
+
+.p{
+    line-height:3px;
+}
